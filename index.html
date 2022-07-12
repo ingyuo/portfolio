@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul class="gnb">
+                <li><a href="#">홈</a></li>
+                <li><a href="#">마이 페이지</a></li>
+                <li><a href="#">계획하기</a></li>
+                <li><a href="#">추천</a></li>
+                <li><a href="#">기획전</a></li>
+            </ul>
+
+
+            <button class="closeBtn">X</button>
+        </nav>
+        <div class="hwrap">
+            
+                <button class="btn">
+                    <img src="images/btn.png">
+                </button>
+                <h1>부산 부산진구 중앙대로 666번길 50</h1>
+            
+            <div class="txtBox">
+                <input type="text" placeholder="소중한 날, 소중한 사람과 함께">
+            </div>
+        </div><!--hwrap-->
+    </header><!--header-->
+
+    <div class="row1">
+        <img src="images/row1_1.png">
+        <img src="images/row1_2.png">
+    </div>
+
+    <div class="row2">
+        <div class="row2Txt">
+            <h2>추천</h2>
+            <p><a href="#">#분위기있는</a></p>
+            <p><a href="#">#백일</a></p>
+        </div><!--row2Txt-->
+
+        <div class="items">
+        <div class="box1">
+            <img src="images/row2_1.png">
+            <div class="boxWrap">
+                <h3><a href="#">메르시엘</a></h3>
+                <div class="points">
+                    <a href="#" class="stars"></a>
+                    <a href="#">평점 4.61</a>
+                </div><!--points-->
+                <div class="addWrap">
+                    <a href="#" class="add">
+                        <p>#해산물</p>
+                    </a>
+                    <a href="#" class="add">
+                        <p>#분위기있는</p>
+                    </a>
+                    <a href="#" class="add">
+                        <p>#와인</p>
+                    </a>
+                </div><!--addWrap-->
+            </div><!--box1Wrap-->
+        </div><!--box1-->
+
+        <div class="box2">
+            <img src="images/row2_2.png">
+            <div class="boxWrap">
+                <h3><a href="#">더 오페라</a></h3>
+                <div class="points">
+                    <a href="#" class="stars"></a>
+                    <a href="#">평점 4.88</a>
+                </div><!--points-->
+                <div class="addWrap">
+                    <a href="#" class="add">
+                        <p>#양식</p>
+                    </a>
+                    <a href="#" class="add">
+                        <p>#백일기념</p>
+                    </a>
+                    <a href="#" class="add">
+                        <p>#분위기있는</p>
+                    </a>
+                </div><!--addWrap-->
+            </div><!--box2Wrap-->
+        </div><!--box2-->
+
+        <div class="box3">
+            <img src="images/row2_3.png">
+            <div class="boxWrap">
+                <h3><a href="#">디 에이블</a></h3>
+                <div class="points">
+                    <a href="#" class="stars"></a>
+                    <a href="#">평점 4.91</a>
+                </div><!--points-->
+                <div class="addWrap">
+                    <a href="#" class="add">
+                        <p>#양식</p>
+                    </a>
+                    <a href="#" class="add">
+                        <p>#가성비</p>
+                    </a>
+                    <a href="#" class="add">
+                        <p>#분위기있는</p>
+                    </a>
+                </div><!--addWrap-->
+            </div><!--box3Wrap-->
+        </div><!--box3-->
+    </div><!--items-->
+    </div><!--row2-->
+
+    <div class="row2Btn">
+        <span></span>
+        <span></span>
+        <span></span>
+        <a href="#">더보기</a>
+    </div>
+
+
+    <div class="row3">
+        <img src="images/row3.png">
+    </div>
+    
+    
+    <script>
+
+let btn = document.querySelector('.btn');
+let closeBtn = document.querySelector('.closeBtn');
+let nav = document.querySelector('nav');
+
+
+btn.addEventListener('click',function(){
+    nav.style.display ='block';
+})
+
+closeBtn.addEventListener('click',function(){
+    nav.style.display = 'none'
+})
+
+    </script>
+</body>
+</html>

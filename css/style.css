@@ -1,0 +1,214 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+
+* { 
+font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+*{margin:0;
+    padding:0;}
+
+ul{list-style: none;
+    }
+
+a{text-decoration: none;
+    color:inherit}
+
+header{
+    height: 152px;
+    background-color: #2ac1bc;
+    border-radius: 0 0 20px 20px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    position: relative
+}
+nav{
+    background-color: #2ac1bc;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.gnb{
+    padding-top: 80px;
+}
+
+.gnb li{
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-size: 32px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+}
+
+.btn{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 90
+}
+
+.btn img{
+    width: 100%;
+}
+
+h1{
+    position: absolute;
+    width: 100%;
+    font-size: 16px;
+    left: 0;
+    top:45px;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+
+
+.txtBox{
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 20px;
+}
+.txtBox input{
+    border-radius: 5px;
+    background-color: #fff;
+    border:0;
+    width: 100%;
+    display: block;
+    background-image: url(../images/dod.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding:10px 0 10px 50px;
+    background-size: 25px auto;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.1);
+}
+
+.row1{
+    display: flex;
+    padding:0 20px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.row1 img{
+    display: block;
+    width: calc(50% - 10px);
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.row2{
+ margin-top: 30px;
+}
+
+.row2Txt{
+    display: flex;
+    padding:0 20px;
+}
+.row2 h2{
+    font-size: 22px;
+    color: #333;
+    margin-right: 20px;
+    font-weight: 900;
+}
+
+.row2Txt p{
+   color: #666;
+    font-size: 20px;
+    font-weight: 999;
+}
+
+.row2 .items{
+    padding: 0 20px;
+}
+
+.row2 .items>div{
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2 .items>div img{
+    width: 80px;
+}
+
+.row2 .items>div .boxWrap{
+    width: calc(100% - 100px);
+}
+
+.row2 .addWrap{
+    display: flex;
+}
+.row2 .addWrap a{
+    font-size: 12px;
+    color: #6f6f6f;
+    border:2px solid #6f6f6f;
+    border-radius: 100px;
+    padding:2px 8px;
+    margin-right: 5px;
+}
+
+.row2Btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+.row2Btn span{
+    width: 16px;
+    height: 16px;
+    background-color: #666;
+    border-radius: 50%;
+    margin:0 2px;
+}
+
+.row2Btn a{
+   position: absolute;
+   top: -2px;
+   right: 20px;
+   font-size: 14px;
+   color: #666;
+   font-weight: bold;
+}
+
+.row2Btn a:after{
+    content: '▶';
+}
+
+.row3{
+    margin-top: 25px;
+}
+.row3 img{
+    width: 100%;
+}
